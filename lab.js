@@ -451,9 +451,9 @@ class Boat extends Vehicle{
     this.isSeaworthy = isSeaworthy;
   }
   checkSeaworthiness(){
-    if(this.isSeaworthy = true){
-      console.log('The ${color} ${type} ${name} is seaworthy!')
-    }else console.log('You need to get your ${type} in shape!')
+    if(this.isSeaworthy === true){
+      console.log(`The ${this.color} ${this.type} ${this.name} is seaworthy!`)
+    }else console.log(`You need to get your ${this.type} in shape!`)
   }
   performMaintenance(){
     this.isSeaworthy = true
